@@ -128,10 +128,10 @@ export default function Footer() {
                   <div className="flex items-start space-x-2 text-sm">
                     <FaEnvelope className="text-base mt-1" />
                     <Link
-                      href="mailto:info@mcaney.com"
+                      href="mailto:info@mcansey.in"
                       className="hover:underline hover:text-white"
                     >
-                      info@mcaney.com
+                      info@mcansey.in
                     </Link>
                   </div>
                 </li>

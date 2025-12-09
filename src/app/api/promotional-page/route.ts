@@ -29,7 +29,7 @@ export async function POST(req: Request) {
     // Update mail options to include project type
     const mailOptions = {
       from: email,
-      to: 'info@mcansey.com',
+      to: 'info@mcansey.in',
       subject: `Contact Form Submission - ${fullName}`,
       text: `You have a new message:\n\nName: ${fullName}\nEmail: ${email}\nPhone: ${phone}\nPlan: ${plan}\nProject Type: ${projectType}\nMessage: ${message}`,
     };

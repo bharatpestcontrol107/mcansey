@@ -45,7 +45,7 @@ export default function PrivacyPolicy() {
           <li>
             <span className="font-semibold">Your Rights</span>
             <div className="ml-4 mt-1">
-              You can request access, update, or deletion of your personal data by contacting us at <a href="mailto:info@mcansey.com" className="text-blue-600 underline">info@mcansey.com</a>.
+              You can request access, update, or deletion of your personal data by contacting us at <a href="mailto:info@mcansey.in" className="text-blue-600 underline">info@mcansey.in</a>.
             </div>
           </li>
         </ol>

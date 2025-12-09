@@ -151,7 +151,7 @@ const Footer: FC = () => {
                 <div className="flex flex-col sm:flex-row items-center sm:items-start sm:space-x-2 text-sm">
                   <FaPhoneAlt className="text-base mb-1 sm:mt-1 sm:mb-0" />
                   <p className="text-center sm:text-left">
-                  <a href="tel:+919323170652">+91 9323170652</a>  <br /> <a href="tel:+919324442227">+91 9324442227</a>
+                  <a href="tel:+919820498470">+91 9820498470</a>  <br /> <a href="tel:02247482386">022 47482386</a>
                   </p>
                 </div>
               </li>
@@ -161,7 +161,7 @@ const Footer: FC = () => {
                 <h3 className="text-sm font-semibold mb-2 text-center  sm:text-left">HR Enquiry</h3>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start sm:space-x-2 text-sm">
                   <FaPhoneAlt className="text-base mb-1 sm:mt-1 sm:mb-0" />
-                  <p className="text-center sm:text-left"><a href="tel:+919082722403">+91 9082722403</a></p>
+                  <p className="text-center sm:text-left"><a href="tel:+919324442227">+91 9324442227</a></p>
                 </div>
                 <div className="border-b border-gray-600 mt-2 mx-auto sm:mx-0 w-4/5 sm:w-full"></div>
               </li>
@@ -172,12 +172,22 @@ const Footer: FC = () => {
                 <div className="flex flex-col sm:flex-row items-center sm:items-start sm:space-x-2 text-sm">
                   <FaEnvelope className="text-base mb-1 sm:mt-1 sm:mb-0" />
                   <Link
-                    href="mailto:info@mcaney.com"
+                    href="mailto:info@mcansey.in"
                     className="hover:underline text-center sm:text-left"
                   >
-                    info@mcaney.com
+                    info@mcansey.in
                   </Link>
                 </div>
+              </li>
+
+              {/* Address */}
+              <li>
+                <h3 className="text-sm font-semibold mb-2 text-center sm:text-left">Address</h3>
+                <p className="text-sm text-center sm:text-left">
+                  F002, SONAM ABHINAV,<br />
+                  MIRA BHAYANDAR – 401105<br />
+                  MUMBAI
+                </p>
               </li>
             </ul>
           </div>

@@ -46,7 +46,7 @@ export async function POST(request: Request) {
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: 'info@mcansey.com',
+      to: 'info@mcansey.in',
       subject: 'Mcansey: New Proposal Request Form Submission',
       text: mailContent,
     };

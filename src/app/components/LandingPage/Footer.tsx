@@ -105,8 +105,8 @@ export default function Footer() {
                   <div className="flex items-start space-x-2 text-sm">
                     <FaPhoneAlt className="text-base mt-1" />
                     <p>
-                      <a href="tel:+919323170652" className="hover:text-white">+91 9323170652</a><br />
-                      <a href="tel:+919324442227" className="hover:text-white">+91 9324442227</a>
+                      <a href="tel:+919820498470" className="hover:text-white">+91 9820498470</a><br />
+                      <a href="tel:02247482386" className="hover:text-white">022 47482386</a>
                     </p>
                   </div>
                 </li>
@@ -116,7 +116,7 @@ export default function Footer() {
                   <h4 className="text-sm font-semibold mb-2">HR Enquiry</h4>
                   <div className="flex items-start space-x-2 text-sm">
                     <FaPhoneAlt className="text-base mt-1" />
-                    <p><a href="tel:+919082722403" className="hover:text-white">+91 9082722403</a></p>
+                    <p><a href="tel:+919324442227" className="hover:text-white">+91 9324442227</a></p>
                   </div>
                   <div className="border-b border-gray-600 mt-2 w-full"></div>
                 </li>
@@ -127,12 +127,22 @@ export default function Footer() {
                   <div className="flex items-start space-x-2 text-sm">
                     <FaEnvelope className="text-base mt-1" />
                     <Link
-                      href="mailto:info@mcaney.com"
+                      href="mailto:info@mcansey.in"
                       className="hover:underline hover:text-white"
                     >
-                      info@mcaney.com
+                      info@mcansey.in
                     </Link>
                   </div>
+                </li>
+
+                {/* Address */}
+                <li>
+                  <h4 className="text-sm font-semibold mb-2">Address</h4>
+                  <p className="text-sm">
+                    F002, SONAM ABHINAV,<br />
+                    MIRA BHAYANDAR – 401105<br />
+                    MUMBAI
+                  </p>
                 </li>
               </ul>
             </div>

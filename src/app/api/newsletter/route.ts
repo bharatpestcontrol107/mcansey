@@ -20,7 +20,7 @@ export async function POST(req: Request) {
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: 'info@mcansey.com',
+      to: 'info@mcansey.in',
       subject: 'Newsletter Subscription',
       text: 'Thank you for subscribing to our newsletter!',
     };

@@ -45,7 +45,7 @@ export default function RefundPolicy() {
           <li>
             <span className="font-semibold">Refund Requests</span>
             <div className="ml-4 mt-1">
-              All refund requests must be submitted in writing to <a href="mailto:info@mcansey.com" className="text-blue-600 underline">info@mcansey.com</a> and must include:
+              All refund requests must be submitted in writing to <a href="mailto:info@mcansey.in" className="text-blue-600 underline">info@mcansey.in</a> and must include:
               <ul className="list-disc ml-8 mt-2 space-y-1 text-gray-600 text-base">
                 <li>Project name and scope</li>
                 <li>Reason for refund request</li>

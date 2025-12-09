@@ -43,7 +43,7 @@ export default function ContactFooter() {
                   </div>
                   <div className="flex items-start space-x-3">
                     <Mail className="h-6 w-6 flex-shrink-0 text-gray-300" />
-                    <span className="text-sm text-gray-300">info@mcansey.com</span>
+                    <span className="text-sm text-gray-300">info@mcansey.in</span>
                   </div>
                   <div className="flex items-start space-x-3">
                     <MapPin className="h-6 w-6 flex-shrink-0 text-gray-300" />

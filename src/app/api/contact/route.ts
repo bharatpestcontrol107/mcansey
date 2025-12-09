@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: 'info@mcansey.com',
+      to: 'info@mcansey.in',
       subject: `New Project Proposal from ${fullName || 'Anonymous'}`,
       text: `
         Full Name: ${fullName || 'Not provided'}

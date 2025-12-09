@@ -128,7 +128,7 @@ const jobDetails = {
     "Flexible working environment and growth opportunities.",
   ],
   applyNow: [
-    'If you’re a sales expert with experience in global markets and a passion for closing deals, we want you on our team! Send your resume to info@mcansey.com or apply online with the subject line "IT Sales Executive Application – Global Sales Specialist.'],
+    'If you’re a sales expert with experience in global markets and a passion for closing deals, we want you on our team! Send your resume to info@mcansey.in or apply online with the subject line "IT Sales Executive Application – Global Sales Specialist.'],
  
 };
 

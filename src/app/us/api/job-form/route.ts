@@ -44,7 +44,7 @@ export async function POST(req: Request) {
     // Email message configuration
     const mailOptions = {
       from: process.env.EMAIL_USER, 
-      to: 'info@mcansey.com', 
+      to: 'info@mcansey.in', 
       subject: `Job Application: ${firstName} ${lastName} for ${position}`,
       html: `
         <h2>Job Application from ${firstName} ${lastName}</h2>
