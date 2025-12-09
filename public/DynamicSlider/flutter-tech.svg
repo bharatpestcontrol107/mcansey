@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.257" height="59.854" viewBox="0 0 48.257 59.854">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.04" y1="0.27" x2="0.759" y2="0.529" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.8"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="flutter-seeklogo.com" transform="translate(0 0)">
+    <path id="Path_78259" data-name="Path 78259" d="M29.806,0,0,29.806l9.225,9.225L48.257,0Z" transform="translate(0 0)" fill="#47c5fb"/>
+    <path id="Path_78260" data-name="Path 78260" d="M88.107,145.4,72.149,161.356l9.26,9.4,9.208-9.208L106.766,145.4Z" transform="translate(-58.509 -117.91)" fill="#47c5fb"/>
+    <path id="Path_78261" data-name="Path 78261" d="M121.133,240.029l7.01,7.01H146.49l-16.149-16.218Z" transform="translate(-98.233 -187.185)" fill="#00569e"/>
+    <path id="Path_78262" data-name="Path 78262" d="M71.6,190.788l9.226-9.226,9.346,9.312-9.208,9.208Z" transform="translate(-58.064 -147.239)" fill="#00b5f8"/>
+    <path id="Path_78263" data-name="Path 78263" d="M121.133,243.371l7.668-2.544.762-5.885Z" transform="translate(-98.233 -190.527)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

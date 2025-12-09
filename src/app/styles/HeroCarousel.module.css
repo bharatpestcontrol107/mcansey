@@ -1,0 +1,123 @@
+.heroCarousel {
+  height: 10vh;
+  min-height: 517px;
+}
+
+.slide {
+  position: relative;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+.slide::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+
+.slide1 {
+  background-color: #A10040;
+  background-image: url('/LandingPage/background.png');
+  color: white;
+}
+
+.slide1::before {
+  background-color: #A10040;
+}
+
+.slide2 {
+  background-color: #FFB700;
+  background-image: url('/LandingPage/background.png');
+  color: black;
+}
+
+.slide2::before {
+  background-color: #FFB700;
+}
+
+.slide3 {
+  background-color: #0B314E;
+  background-image: url('/LandingPage/background.png');
+  color: white;
+}
+
+.slide3::before {
+  background-color: #0B314E;
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  text-align: left;
+  padding-top: 65px;
+  padding-left: 10%;
+  width: 100%;
+  max-width: 90%;
+}
+
+.slideImage {
+  position: relative;
+  z-index: 10;
+  margin-top: 1.5rem;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.cursorIcon {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  width: 40px;
+  height: 40px;
+}
+
+.layerIcon {
+  position: absolute;
+  bottom: 15%;
+  right: 10%;
+  width: 40px;
+  height: 40px;
+}
+
+.yellowDecoration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: auto;
+}
+
+@media (min-width: 640px) {
+  .cursorIcon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .layerIcon {
+    width: 72px;
+    height: 89px;
+  }
+
+  .yellowDecoration {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .yellowDecoration {
+    width: 300px;
+  }
+}
+

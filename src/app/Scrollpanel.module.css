@@ -1,0 +1,11 @@
+.scrollContainer {
+    overflow-y: scroll;
+    height: 100vh;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .scrollContainer * {
+    overflow-x: hidden;
+    margin: 0;
+  }
+  
