@@ -9,7 +9,6 @@ import WhyweSoftware from "../components/SoftwareDevelopment/WhyweSoftware";
 import { Metadata } from "next";
 import ServicesSoftwareOne from "../components/SoftwareDevelopment/ServiceSoftwareOne";
 import HomeItStaff from "../components/SoftwareDevelopment/HomeItStaff";
-import OfficeITAugmentation from "../components/SoftwareDevelopment/OfficeITAugmentation";
 import StatsSection from "../components/Home/StatSection";
 
 import StaffSliderData from "../components/SoftwareDevelopment/StaffSliderData";
@@ -69,7 +68,6 @@ export default function ItStaffAugmentation() {
       <StrategicPartnerships />
       <EnquiryForm/>
       <ITStaffFAQ/>
-      <OfficeITAugmentation />
       
     </>
   );

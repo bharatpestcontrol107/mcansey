@@ -3,7 +3,6 @@ import FormSection from "./components/Home/FormSection";
 import Homedd from "./components/Header";
 import Homes from "./components/Home";
 import IndustryGrid from "./components/Home/IndustryGrid";
-import Office from "./components/Home/Office";
 import Services from "./components/Home/Services";
 import StatsSection from "./components/Home/StatSection";
 import StrategicPartnerships from "./components/Home/StrategicPartnerships";
@@ -37,7 +36,6 @@ export default function Home() {
       <StrategicPartnerships />
       <FormSection />
       <FAQ />
-      <Office />
       <Footer/>
     </>
   );

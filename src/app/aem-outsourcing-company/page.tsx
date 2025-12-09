@@ -4,8 +4,6 @@ import StrategicPartnerships from "../components/Home/StrategicPartnerships";
 import TechCapabilities from "../components/Home/TechCapabilities";
 import { Metadata } from "next";
 
-import OfficeITAugmentation from "../components/SoftwareDevelopment/OfficeITAugmentation";
-
 
 import AllHome from "../components/common/AllHome";
 
@@ -72,7 +70,6 @@ export default function AEMOutSourcingCompany() {
       <StrategicPartnerships />
       <FormSection/>
       <AEMOutSourcingFAQ/>
-      <OfficeITAugmentation />
       <Footer/>
     </>
   );

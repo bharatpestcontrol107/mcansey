@@ -1,7 +1,6 @@
 import FormSection from "../components/Home/FormSection";
 import Homedd from "../components/Header";
 import IndustryGrid from "../components/Home/IndustryGrid";
-import Office from "../components/Home/Office";
 import StrategicPartnerships from "../components/Home/StrategicPartnerships";
 import TechCapabilities from "../components/Home/TechCapabilities";
 import ServicesCloud from "../components/Cloud-UI/ServicesCloud";
@@ -61,7 +60,6 @@ export default function Cloud() {
       <StrategicPartnerships />
       <FormSection />
       <FAQCloud />
-      <Office />
     </>
   );
 }
