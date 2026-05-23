@@ -133,36 +133,42 @@ const serviceCards = [
     title: "SEO Optimization",
     description: "Improve rankings with technical SEO, keyword strategy, and content that earns traffic.",
     tone: "bg-sky-50 text-sky-600",
+    image: "/images/Banner.webp",
   },
   {
     icon: Megaphone,
     title: "Social Media Marketing",
     description: "Build a lively social presence with content people want to stop, read, and share.",
     tone: "bg-fuchsia-50 text-fuchsia-600",
+    image: "/images/center-cta-banner.webp",
   },
   {
     icon: MousePointerClick,
     title: "Pay-Per-Click Services",
     description: "Run focused paid campaigns across Google and Meta with a strong conversion lens.",
     tone: "bg-amber-50 text-amber-600",
+    image: "/images/Build-an-ERP-System-2.webp",
   },
   {
     icon: BarChart3,
     title: "Analytics & Reporting",
     description: "Turn data into decisions with dashboards and reporting your team can actually use.",
     tone: "bg-emerald-50 text-emerald-600",
+    image: "/images/ERP-Accounting-Software-Development-All-You-Need-To-Know.webp",
   },
   {
     icon: Sparkles,
     title: "Creative Direction",
     description: "Sharpen your visuals and messaging so every touchpoint feels premium and aligned.",
     tone: "bg-violet-50 text-violet-600",
+    image: "/images/ERP-software-banner.webp",
   },
   {
     icon: Users,
     title: "Lead Nurture Systems",
     description: "Keep momentum after the click with email, retargeting, and conversion-friendly flows.",
     tone: "bg-blue-50 text-blue-600",
+    image: "/images/Banner.webp",
   },
 ];
 
@@ -367,12 +373,20 @@ export default function DigitalMarketingCompany() {
             {serviceCards.map((card) => {
               const Icon = card.icon;
               return (
-                <div key={card.title} className="group rounded-[1.75rem] border border-white bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl">
-                  <div className={`flex h-14 w-14 items-center justify-center rounded-2xl ${card.tone}`}>
-                    <Icon className="h-6 w-6" />
+                <div key={card.title} className="group rounded-[1.75rem] border border-white bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl overflow-hidden">
+                  {card.image ? (
+                    <div className="relative w-full h-44">
+                      <Image src={card.image} alt={card.title} fill className="object-cover" />
+                    </div>
+                  ) : (
+                    <div className={`w-full h-44 flex items-center justify-center ${card.tone}`}>
+                      <Icon className="h-12 w-12 text-white/90" />
+                    </div>
+                  )}
+                  <div className="p-6">
+                    <h4 className="text-xl font-semibold text-slate-950">{card.title}</h4>
+                    <p className="mt-3 text-sm leading-6 text-slate-600">{card.description}</p>
                   </div>
-                  <h4 className="mt-5 text-xl font-semibold text-slate-950">{card.title}</h4>
-                  <p className="mt-3 text-sm leading-6 text-slate-600">{card.description}</p>
                 </div>
               );
             })}

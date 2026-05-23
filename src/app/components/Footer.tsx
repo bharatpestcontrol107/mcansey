@@ -151,7 +151,7 @@ const Footer: FC = () => {
                 <div className="flex flex-col sm:flex-row items-center sm:items-start sm:space-x-2 text-sm">
                   <FaPhoneAlt className="text-base mb-1 sm:mt-1 sm:mb-0" />
                   <p className="text-center sm:text-left">
-                  <a href="tel:+919820498470">+91 9820498470</a>  <br /> <a href="tel:02247482386">022 47482386</a>
+                  <a href="tel:+919323170652">+91 9323170652</a>  <br /> <a href="tel:02247482386">022 47482386</a>
                   </p>
                 </div>
               </li>

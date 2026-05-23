@@ -105,7 +105,7 @@ export default function Footer() {
                   <div className="flex items-start space-x-2 text-sm">
                     <FaPhoneAlt className="text-base mt-1" />
                     <p>
-                      <a href="tel:+919820498470" className="hover:text-white">+91 9820498470</a><br />
+                      <a href="tel:+919323170652" className="hover:text-white">+91 9323170652</a><br />
                       <a href="tel:02247482386" className="hover:text-white">022 47482386</a>
                     </p>
                   </div>
