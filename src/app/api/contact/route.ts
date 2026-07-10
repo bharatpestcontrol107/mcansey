@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
+export const runtime = 'nodejs';
+
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
@@ -11,6 +13,13 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Invalid form submission' }, { status: 400 });
     }
 
+
+    if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+      return NextResponse.json(
+        { error: 'Email configuration is missing on the server.' },
+        { status: 500 }
+      );
+    }
 
     const transporter = nodemailer.createTransport({
       service: 'gmail',
@@ -23,7 +32,8 @@ export async function POST(req: NextRequest) {
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: 'info@mcansey.in',
+      to: process.env.EMAIL_USER,
+      replyTo: email,
       subject: `New Project Proposal from ${fullName || 'Anonymous'}`,
       text: `
         Full Name: ${fullName || 'Not provided'}

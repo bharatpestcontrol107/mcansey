@@ -37,22 +37,13 @@ const formFields: FormField[] = [
     type: 'select',
     id: 'services',
     options: [
-      'UI/UX Design',
       'Website Development',
-      'Mobile App Development',
-      'Software Development',
-      'Cloud Services',
-      'Data Analytics',
-      'Cybersecurity',
-      'AEM Development',
-      'IT Consulting',
-      'Digital Marketing',
-      'Frontend Development',
-      'Backend Development',
-      'Artificial Intelligence',
-      'IoT',
-      'Blockchain',
-      'Others',
+      'Meta Ads',
+      'Google Ads',
+      'App Development',
+      'SEO',
+      'Whatsapp Marketing',
+      'SMS Service',
     ],
     required: true,
   },
@@ -188,8 +179,8 @@ const FormSection: React.FC = () => {
           </ul>
           <p className="pt-6 text-sm md:text-base text-gray-800">
             <span className="font-bold text-sm md:text-base">Fill out the form now or reach out to us at </span>
-            <a href="mailto:info@mcansey.com" className="text-blue-600 hover:underline">
-              info@mcansey.com
+            <a href="mailto:info@mcansey.in" className="text-blue-600 hover:underline">
+              info@mcansey.in
             </a>
           </p>
         </div>
